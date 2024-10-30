@@ -16,7 +16,7 @@ const DEBUG = convertToBool(process.env.DEBUG, 'true');
 
 module.exports = {
   VERSION: 'v4.4.4',
-  SESSION_ID: process.env.SESSION_ID || 'HP_2024_OCT_19_H3U6FD',
+  SESSION_ID: process.env.SESSION_ID || 'HP_2024_OCT_30_4M7YZG',
   MODE: (process.env.MODE || 'private').toLowerCase(),
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
   SEND_READ: toBool(process.env.READ_COMMAND),
@@ -25,13 +25,20 @@ module.exports = {
   BLOCKCHAT: process.env.BLOCK_CHAT || false,
   LANG: (process.env.LANGUAGE || 'EN').toUpperCase(),
   ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE),
-  BOT_NAME: process.env.BOT_NAME || 'ʜᴇʀᴍɪᴛ',
+  BOT_NAME: process.env.BOT_NAME || '🤍⃞𝄟ꪶ𝐒͢ʏ᪳ᴀ͓ᴍ͎ ͢𝐒ᴇ͓ꪳʀ͎𖦻⃞🍓',
   AUTOMUTE_MSG: process.env.AUTOMUTE_MSG || '_Group automuted!_\n_(Change this by setting var AUTOMUTE_MSG)_',
   AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group autounmuted!_\n_(Change this by setting var AUTOUNMUTE_MSG)_',
   ANTILINK_MSG: process.env.ANTILINK_MSG || '_Link Not Allowed!_\n_(Change this by setting var ANTILINK_MSG)_',
-  BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/6oRG106.jpeg',
-  AUDIO_DATA: process.env.AUDIO_DATA || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/fj2WE83.jpeg',
-  STICKER_DATA: process.env.STICKER_DATA || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ',
+  BOT_INFO: process.env.BOT_INFO || '🤍⃞𝄟ꪶ𝐒͢ʏ᪳ᴀ͓ᴍ͎ ͢𝐒ᴇ͓ꪳʀ͎𖦻⃞🍓;✪⃝⸸ꜛꪶ͢𝐒𝐘͔𝐀𝐌 𝐒𝐄𝐑͢ꫂꜜ™;919947121619;https://i.imgur.com/TrJHlgs.png',
+  AUDIO_DATA: process.env.AUDIO_DATA || '🤍⃞𝄟ꪶ𝐒͢ʏ᪳ᴀ͓ᴍ͎ ͢𝐒ᴇ͓ꪳʀ͎𖦻⃞🍓;✪⃝⸸ꜛꪶ͢𝐒𝐘͔𝐀𝐌 𝐒𝐄𝐑͢ꫂꜜ™;https://i.imgur.com/TrJHlgs.png',
+  STICKER_DATA: process.env.STICKER_DATA || ' 🤍⃞𝄟ꪶ𝐒͢ʏ᪳ᴀ͓ᴍ͎ ͢𝐒ᴇ͓ꪳʀ͎𖦻⃞🍓
+
+    𝛨𝛯𝐿𝐿𝛩 𝐵𝛩𝐵𝛩
+
+            >𝟑💌🕊🦋🍒
+
+           🪡⇉ꪶ +91 99471 21619 ⃟⃮➣🤍
+           Hey youhh my name is { } ',
   ERROR_MESSAGE: toBool(process.env.ERROR_MESSAGE, 'true'),
   SONG_THUMBNAIL: toBool(process.env.SONG_THUMBNAIL),
   WARN: process.env.WARN || '4',
@@ -62,8 +69,8 @@ module.exports = {
         },
         logging: false,
       }),
-  RBG_API_KEY: process.env.REMOVE_BG_API_KEY || false,
+  RBG_API_KEY: process.env.REMOVE_BG_API_KEY || true,
   BRAIN_ID: process.env.BRAIN_ID || 'bid=168613&key=EfbnX54Iy9PFIFp3',
-  SUDO: process.env.SUDO || '0,0',
+  SUDO: process.env.SUDO || '919947121619,919567562188',
   DEBUG: DEBUG
 };
